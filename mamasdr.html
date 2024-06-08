@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      .jumping-numbers {
+      font-size: 128px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .numbers {
+        display: inline-block;
+        animation: jump 2s infinite;
+        color: #b6c0c4;
+    }
+
+    @keyframes jump {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes jump {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-20px);
+      }
+    }
+    body {
+        background: url(/static/img/heartdr.jpeg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .shake {
+			animation: shake 0.5s infinite;
+			animation-timing-function: ease-in-out;
+            text-align: center;
+            color: #b6c0c4;
+    }
+
+    @keyframes shake {
+			0% {
+				transform: translate(0, 0);
+			}
+			20% {
+				transform: translate(-2px, 0);
+			}
+			40% {
+				transform: translate(2px, 0);
+			}
+			60% {
+				transform: translate(-2px, 0);
+			}
+			80% {
+				transform: translate(2px, 0);
+			}
+			100% {
+				transform: translate(0, 0);
+			}
+    }
+    </style>
+    <link rel="usa.css" href="/css/style.css">
+    <meta charset="UTF-8">
+    <title>Мама с днём рождения</title>
+</head>
+<body>
+
+    <video controls autoplay name="media">
+        <source src="http://127.0.0.1:5000/static/music/mama.mp3" type="audio/mpeg">
+    </video>
+
+    <div class="jumping-numbers">
+      <span class="numbers">35</span>
+    </div>
+
+    <h1 class="shake">С днём рождения, мама!</h1>
+	<p class="shake">Ты самая лучшая мама в мире!</p>
+	<p class="shake">Спасибо за всё, что ты делаешь для меня.</p>
+	<p class="shake">Я люблю тебя больше всего на свете!</p>
+
+    <img src="/static/img/mamas.jpeg" alt="Тут могла быть ваша реклама">
+
+</body>
+</html>

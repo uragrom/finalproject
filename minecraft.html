@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        .jumping-numbers {
+          font-size: 64px;
+          font-weight: bold;
+          text-align: center;
+        }
+
+        .number {
+          display: inline-block;
+          animation: jump 2s infinite;
+        }
+
+        @keyframes jump {
+          0% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-20px);
+          }
+          100% {
+            transform: translateY(0);
+          }
+        }
+
+        .shake {
+			animation: shake 0.5s infinite;
+			animation-timing-function: ease-in-out;
+            text-align: center;
+            color: #b6c0c4;
+        }
+
+        @keyframes shake {
+			0% {
+				transform: translate(0, 0);
+			}
+			20% {
+				transform: translate(-2px, 0);
+			}
+			40% {
+				transform: translate(2px, 0);
+			}
+			60% {
+				transform: translate(-2px, 0);
+			}
+			80% {
+				transform: translate(2px, 0);
+			}
+			100% {
+				transform: translate(0, 0);
+			}
+        }
+        body{
+            background-image: url('static/img/FonMainCirpic.jpg');
+            background-size: cover;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>
+        Он никода не спит...
+    </title>
+    <link rel="style.css" href="/static/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/RealHero">Игроки=Герои!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/">Главная</a>
+            <a class="nav-link" href="/whaywait">Что ждёт игру?</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<div class="container">
+
+    <div class="jumping-numbers">
+          <span class="number">
+                  Все большие события майнкрафта за последние 15 лет!
+          </span>
+    </div>
+    <img src="/static/img/stivVverryka.png" alt="Тут могла быть ваша реклама">
+
+    <h3>До...</h3>
+
+    <span class="placeholder col-12 bg-danger">Идея создать маинкрафт пришла Маркусу Персону с инди игры Infiniminer, Dwarf Forest</span>
+
+
+    <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Фото этой игры
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Это и есть Infiniminer</strong> <img src="/static/img/ShablonInfiniminer.jpg" alt="Тут могла быть ваша реклама">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">10 мая 2009 год</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <img src="/static/img/MinecraftClassicScreenshot.jpeg" alt="Тут могла быть ваша реклама">
+
+    <h3 class="shake">В этот не чем непремечательный день вышла самая продаваемая игра за всю историю человечества. Версия rd-131655 была сделана за 6 дней и крайне нестабильной пока её не обнавили 13 мая</h3>
+
+    <iframe width="1280" height="670" src="https://www.youtube.com/embed/44bKpxKDMm8" title="Minecraft Classic 0.30 ClassiCube Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <img src="/static/img/Steve_(Minecraft).png" class="rounded float-start" alt="Тут могла быть ваша реклама">
+    <img src="/static/img/Aleks.png" class="rounded float-end" alt="Тут могла быть ваша реклама">
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">1 сентября 2009 год</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h3>
+        Из-за ошибки нотч пирепутал вышену с длиной и получилась страшная свинья. Он изменил её и добавил. Получился крипер который стал зарегистрированной маркой Майнкрафта
+    </h3>
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">4 января 2010 год</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h3>
+        Вышла первая версия Survival Multiplayer (Java Edition Alpha v1.0.15)
+    </h3>
+
+    <iframe width="1280" height="680" src="https://www.youtube.com/embed/BDd6LtiyMLQ" title="Minecraft Java Edition Alpha v1.0.15" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">30 января 2010 год</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h3>
+        Нотч отправился в командировку в Bellevue, штат Вашингтон, по приглашению VALVe
+    </h3>
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">17 ноября 2011 год</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h3>
+        Это дата создания майнкрафт бедрок на тот момент покет эдишен. Позже она вышла на все устройства и стала в своём роде doom 1
+    </h3>
+
+    <iframe width="1280" height="671" src="https://www.youtube.com/embed/4PREkQUzQc0" title="Minecraft Pocket Edition Alpha 0.1.0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">9 ноября 2013</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h3>
+        c418 по просьбе нотча выпускает все треки которые он выпустил для Майнкрафта. И вот некоторые:
+        <br />
+            1. Ki
+        <br />
+            2. Alpha
+        <br />
+            3. Dead Voxel
+        <br />
+            4. Blind Spots
+        <br />
+            5. Flake
+        <br />
+            6. Moog City 2
+        <br />
+            7. Concrete Halls
+        <br />
+            8. Biome Fest
+        <br />
+            9. Mutation
+        <br />
+            10.Haunt Muskie
+        <br />
+            11.Taswell
+        <br />
+            12.Dreiton
+        <br />
+            13.Aria Math
+        <br />
+            14.Minecraft
+    </h3>
+    <h3>
+        Aria Math
+    </h3>
+    <video controls name="media">
+        <source src="http://127.0.0.1:5000/static/music/c418aria-math.mp3" type="audio/mpeg">
+    </video>
+
+    <h3>
+        Minecraft
+    </h3>
+
+    <video controls name="media">
+        <source src="http://127.0.0.1:5000/static/music/C418Minecraft.mp3" type="audio/mpeg">
+    </video>
+
+    <h3>
+        Moog City 2
+    </h3>
+
+    <video controls name="media">
+        <source src="http://127.0.0.1:5000/static/music/C418Moog_City_2.mp3" type="audio/mpeg">
+    </video>
+
+    <h3>
+        Это легендарные треки которые почти у всех называют настольгию
+    </h3>
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">26 июня 2014 год</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h3>
+        В этот день вышла самая величайшая версия Майнкрафта под руководством нотча. Ничего лишнего, Отличная оптимизация. Это был рай для создателей модов.
+    </h3>
+
+    <iframe width="820" height="461" src="https://www.youtube.com/embed/6-KxQvbzQOQ" title="Minecraft 1.7 (no commentary Gameplay)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">6 ноября 2014 год</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h3>
+        В этот день история майнкрафта изменилась на до и после . Маркус Персон (Нотч) продал Майнкрафт за 2,5 млрд долларов!
+    </h3>
+
+    <img src="/static/img/markys.jpg" alt="Тут могла быть ваша реклама">
+
+    <iframe width="835" height="470" src="https://www.youtube.com/embed/Gbl2KGP0G_8" title="MineCon 2011 Minecraft History Keynote Intro (offscreen)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">18 ноября 2017 год (майкрасофт любит ноябрь)</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h3>
+         Первый Minecraft Live. Minecraft Live (Minecon live) - Это голосоввание за моба который выйдет в обновлении. Это замена Minecon
+    </h3>
+
+    <iframe width="820" height="461" src="https://www.youtube.com/embed/9IwJoNOmtrs" title="Minecraft - ALL 5 New Mobs Revealed At Minecon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-danger">Наши дни</span>
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h3>
+        в наши дни майнкрафт празднует 15 лет с момента создания. Они делают целую кучу колабараций от тик тока(ради этого пришлось скачать эту помойку) до принглс. Целая куча подарков и карт . Майнкрафт стал медленней обновляться, а многие аспекты позабылись.
+    </h3>
+
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/LKw_2rj7hLc" title="Minecraft is turning 15 | Come celebrate with us!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <img src="/static/img/PringlsTNT.png" alt="Тут могла быть ваша реклама">
+    <img src="/static/img/PringlsQ.jpg" alt="Тут могла быть ваша реклама">
+
+    <span class="placeholder col-12 bg-danger"></span>
+
+    <h1>
+        Как видит ИИ Майнкрафт?
+    </h1>
+
+    <h3>
+        Это вопрос как ИИ способен подстраиваться к особой стилистике игры
+    </h3>
+
+    <h5>
+        Yandex AI
+    </h5>
+
+    <img src="/static/img/YandexAI.jpg" alt="Тут могла быть ваша реклама">
+
+    <h5>
+        LimeWire AI
+    </h5>
+
+    <img src="/static/img/LimeWire-AI-Studio-Asset.jpg" alt="Тут могла быть ваша реклама">
+
+    <h5>
+        Playground AI
+    </h5>
+
+    <img src="/static/img/PlaygroundAI.jpeg" alt="Тут могла быть ваша реклама">
+
+    <h5>
+        Leonardo AI
+    </h5>
+
+    <img src="/static/img/LeonardoAI.jpg" alt="Тут могла быть ваша реклама">
+
+    <h5>
+        ideogram AI
+    </h5>
+
+    <img src="/static/img/ideogramAI.jpeg" alt="Тут могла быть ваша реклама">
+
+    <h5>
+        dream AI
+    </h5>
+
+    <img src="/static/img/dreamAI.jpg" alt="Тут могла быть ваша реклама">
+
+    <h5>
+        craiyon AI
+    </h5>
+
+    <img src="/static/img/craiyonAI.png" alt="Тут могла быть ваша реклама">
+
+</div>
+</body>
+</html>
